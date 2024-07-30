@@ -1,0 +1,197 @@
+/* makes the words fit within the 400px instead of the normal margins in ao3 */
+#workskin .tw {
+  max-width: 400px;
+  display: table;
+  margin: auto;
+  text-align: justify;
+}
+
+/* class="user" text is grey */
+#workskin .user {
+  color: #878787;
+}
+
+/* class="link" text is blue */
+#workskin .link {
+  color: #0084B4;
+}
+
+/* class="link" text is underlined when hovered over */
+#workskin .link:hover {
+  text-decoration: underline;
+}
+
+/* all links are blue (eg. username, more notes, series) */
+#workskin a {
+  color: #0084B4;
+  text-decoration: none;
+}
+
+/* all links are underlined when hovered over */
+#workskin a:hover {
+  text-decoration: underline;
+}
+
+/* class="tag" is blue */
+#workskin .tag {
+  color: #0084B4;
+}
+
+/* class="check" is blue */
+#workskin .check {
+  color: #0084B4;
+}
+
+/* <hr class="twhr"> which is a formatted break */
+#workskin hr {
+  width: 100%;
+  border-width: 3px;
+}
+
+/* <hr class="twhr"> which is a formatted break */
+#workskin .twhr {
+  width: 100%;
+  border-width: 1px;
+  color: #878787;
+}
+
+/* class="blank" text is white, invisible on white background bc sometimes the <p> </p> won't work properly with the rest of the code so instead put <p class="blank"> ??? </p> */
+#workskin .blank {
+  color: #ffffff;
+}
+
+/* class="underline" text is grey */
+#workskin .underline {
+  color: #7f7f7f;
+}
+
+/* class="underline" is underlined when hovered over */
+#workskin .underline:hover {
+  text-decoration: underline;
+}
+
+/* groupchat usenames appear as blue, bold with the words 'baby BrAT - ' */
+#workskin .hovertext1:after {
+  content: 'baby BrAT - ';
+  color: #0084B4;
+  font-weight: bold;
+}
+
+/* when hovered over, gc username will turn to 'Damian - ' in grey */
+#workskin .hovertext1:hover:after,
+#workskin .hovertext1:focus:after {
+  content: 'Damian - ';
+  color: #878787;
+  font-weight: bold;
+}
+
+#workskin .hovertext2:after {
+  content: 'dildo - ';
+  color: #0084B4;
+  font-weight: bold;
+}
+
+#workskin .hovertext2:hover:after,
+#workskin .hovertext2:focus:after {
+  content: 'Dick - ';
+  color: #878787;
+  font-weight: bold;
+}
+
+#workskin .hovertext3:after {
+  content: 'tired middle child - ';
+  color: #0084B4;
+  font-weight: bold;
+}
+
+#workskin .hovertext3:hover:after,
+#workskin .hovertext3:focus:after {
+  content: 'Tim - ';
+  color: #878787;
+  font-weight: bold;
+}
+
+#workskin .hovertext4:after {
+  content: 'batdad - ';
+  color: #0084B4;
+  font-weight: bold;
+}
+
+#workskin .hovertext4:hover:after,
+#workskin .hovertext4:focus:after {
+  content: 'Bruce - ';
+  color: #878787;
+  font-weight: bold;
+}
+
+#workskin .hovertext5:after {
+  content: 'hooded himbo - ';
+  color: #0084B4;
+  font-weight: bold;
+}
+
+#workskin .hovertext5:hover:after,
+#workskin .hovertext5:focus:after {
+  content: 'Jason - ';
+  color: #878787;
+  font-weight: bold;
+}
+
+#workskin .hovertext6:after {
+  content: 'purple menace - ';
+  color: #0084B4;
+  font-weight: bold;
+}
+
+#workskin .hovertext6:hover:after,
+#workskin .hovertext6:focus:after {
+  content: 'Steph - ';
+  color: #878787;
+  font-weight: bold;
+}
+
+#workskin .hovertext7:after {
+  content: '*hakr voice* im in - ';
+  color: #0084B4;
+  font-weight: bold;
+}
+
+#workskin .hovertext7:hover:after,
+#workskin .hovertext7:focus:after {
+  content: 'Barbara - ';
+  color: #878787;
+  font-weight: bold;
+}
+
+#workskin .hovertext8:after {
+  content: 'joKING - ';
+  color: #0084B4;
+  font-weight: bold;
+}
+
+#workskin .hovertext8:hover:after,
+#workskin .hovertext8:focus:after {
+  content: 'Duke - ';
+  color: #878787;
+  font-weight: bold;
+}
+
+#workskin .hovertext9:after {
+  content: 'favourite child - ';
+  color: #0084B4;
+  font-weight: bold;
+}
+
+#workskin .hovertext9:hover:after,
+#workskin .hovertext9:focus:after {
+  content: 'Cass - ';
+  color: #878787;
+  font-weight: bold;
+}
+
+/* class="hide" is not visible unless the creator's style is turned off. Hovertext isn't visible when style is off, so this ensures the gc users are still visible. */
+#workskin .hide {
+  display: none;
+  color: #0084B4;
+  font-weight: bold;
+}
