@@ -1,0 +1,126 @@
+/* formatting for a website link with the different text displayed */
+<p> 
+<a href="INSERTLINK" rel="nofollow"> LINK </a> 
+</p>
+
+
+/* put at the start and end of the fic, unless there is some normal text, this ensures the text is wihin the 400px in the center of the screen */
+<div class="tw"> </div>
+
+
+/* the formatting of the first/original twitter post */
+<p>
+<b> NICKNAME </b>
+<span class="check">☑</span>
+<span class="user"> @USERNAME </span><br />
+twitter post words <br />
+30 🗨 | 103 🔃 | 877 ♥ 
+</p>
+
+
+/* the break between the original post and any replies */
+<hr class="twhr" />
+
+
+/* a twitter post reply - can put as many of these as you want under the original post */
+<blockquote>
+<p>
+<b> NICKNAME </b>
+<span class="check">☑</span>
+<span class="user"> @USERNAME </span><br />
+<span class="user"> ↳ replying to </span> <span class="link"> @ORIGINALUSER </span> <br />
+twitter post reply words <span class="link"> #HASHTAG </span> more reply words if needed <br />
+</p>
+</blockquote>
+
+
+/* a link to a video with an alt. text explanation */
+<p>
+<a class="underline" href="INSERTLINK" rel="nofollow"> [video: NAME OF LINK] </a>
+</p> 
+
+
+/* fake media link with an alt. text explanation */
+<p> 
+<span class="user">
+ [video: DESCRIPTION OF MEDIA] 
+</span>
+</p>
+
+
+/* a wesite link with the url displayed */
+<p> <a class="link" href="INSERTLINK" rel="nofollow"> INSERT LINK</a> 
+</p></div>
+
+
+/* code for the twitter formatting in the summary of the fic */
+<b> Nickname </b><span>✓</span><span> @Username </span><br />
+Text text text text @Username.<br />
+
+<blockquote>
+<b> Nickname </b> <span> @Username</span><br />
+↳ replying to @Username<br />
+@Username Text text text text text text. #tag<br />
+</blockquote>
+
+<blockquote>
+<b> Nickname </b><span>✓</span><span> @Username </span><br />
+↳ replying to @Username<br />
+Text text text text text. <br />
+</blockquote>
+
+
+/* the paragraph code to use if the normal <p> </p> doesn't work */
+<span class="blank">... </span>
+
+
+
+/* groupchat formatting */
+
+<hr class="twhr"/>                                     
+<p></p>
+<div class="tw">
+<p><span class="blank">... </span></p>
+
+/* groupchat title */
+<center><p><b> <span class="underline"> Groupchat Name </span> </b></p></center>
+
+<p> </p>
+
+/* the username that you want displayed if the creator's style is turned off */
+<div class="hide">
+<p>Username 4</p></div>
+
+/* coding the username that changes between words + the actual text */
+<p><span class="hovertext4"></span> Text text text</p>
+
+<p> </p>
+
+<div class="hide">
+<p>Username 1</p></div>
+<p><span class="hovertext1"></span> Text text.</p>
+
+<p> </p>
+
+<div class="hide">
+<p>Username 6</p></div>
+<p><span class="hovertext6"></span> Text text</p>
+
+<p> </p>
+
+<div class="hide">
+<p>Username 1</p></div>
+<p><span class="hovertext1"></span> Text text text.</p>
+
+<p> </p>
+
+<div class="hide">
+<p>Username 2</p></div>
+<p><span class="hovertext2"></span> Text text text</p>
+
+/* ending the groupchat */
+</div>
+<p><span class="blank">... </span></p>
+<p></p>
+<hr class="twhr"/>
+<p><span class="blank">... </span></p>
